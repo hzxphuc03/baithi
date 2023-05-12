@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:'Roboto', sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background-color: black;
+  }
+  
+  section.header .container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  section.header .container .logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  section.header .container .logo-menu .logo {
+    display: inline-block;
+  }
+  
+  section.header .container .logo-menu .logo h2 {
+    font-weight: 400;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  section.header .container .logo-menu .menu {
+    flex: none;
+    flex-basis: 75%;
+  }
+  
+  section.header .container .logo-menu .menu nav {
+    width: 100%;
+  }
+  
+  section.header .container .logo-menu .menu nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  section.header .container .logo-menu .menu nav ul li {
+    list-style: none;
+  }
+  
+  section.header .container .logo-menu .menu nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  section.header .container .logo-menu .menu nav ul li a:hover {
+    color: #BDBDBD;
+  }
+  
+  section.header .container .logo-menu .cart {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+  

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    position: relative;
+}
+section.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    background-color: black;
+}
+section.header .container{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+section.header .container .head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+section.header .container .head .logo {
+    flex: 1;
+    flex-basis: 15%;
+}
+section.header .container .head .logo h2{
+    font-weight: 400;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section.header .container .head .menu{
+    flex: 1;
+    flex-basis: 75%;
+}
+section.header .container .head .menu nav{
+    width: 100%;
+    position: relative;
+}
+section.header .container .head .menu nav ul{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+section.header .container .head .menu nav ul li{
+    list-style: none;
+}
+section.header .container .head .menu nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+section.header .container .head .menu nav ul li a:hover{
+    color: #BDBDBD;
+}
+section.header .container .head .cart{
+    flex: 1;
+    flex-basis: 10%;
+    color: #fff;
+    font-size: 24px;
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+.name {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    text-align: center;
+}
+.col-2th {
+    text-align: center;
+}
